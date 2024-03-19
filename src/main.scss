@@ -1,6 +1,31 @@
-.text-static {
+.static-text {
   font-size: 18px;
-  line-height: 20px;
   font-weight: 700;
+  line-height: 20px;
+
   color: #000000;
 }
+
+.desc-text {
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.select-text {
+  font-size: 13px;
+  line-height: 15.23px;
+
+  @media(max-width: 320px) {
+    font-size: 14px;
+    line-height: 16.41px;
+  }
+}
+
+.painting-responsive-img {
+  aspect-ratio: 360/275;
+
+  @media(max-width: 768.75px) {
+    aspect-ratio: 340/249;
+  }
+}
+
