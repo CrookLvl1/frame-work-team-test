@@ -99,7 +99,7 @@ const url = baseURL.slice(0, -1) + props.painting.imageUrl;
 
       transform: translateY(0%);
 
-      li {
+      p {
         text-wrap: wrap;
       }
     }
